@@ -22,6 +22,12 @@ body {
   padding: 32px;
 }
 
+@media (max-width: 512px) {
+  .max-width-wrapper {
+    padding: 32px 0px;
+  }
+}
+
 .intro-chunk {
   /* border: 1px dashed pink; */
   max-width: 320px;
