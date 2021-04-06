@@ -16,9 +16,9 @@ body {
 }
 
 .max-width-wrapper {
+  /* border: 1px dashed red; */
   max-width: 640px;
   margin: auto;
-  border: 1px dashed red;
   padding: 32px;
 }
 
@@ -58,11 +58,11 @@ strong {
 }
 
 /* debug text allignment */
-.max-width-wrapper:first-child:before {
-  position: fixed;
-  height: 100%;
-  margin-left: 24px;
-  content: "";
-  border-left: 2px solid red;
-}
-
+/* .max-width-wrapper:first-child:before {
+   position: fixed;
+   height: 100%;
+   margin-left: 24px;
+   content: "";
+   border-left: 2px solid red;
+   }
+ */
